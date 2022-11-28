@@ -10,6 +10,7 @@ Param(
 $automationAccount = "xAutomationAccount"
 #feature-01
 
+#feature-03
 # Ensures you do not inherit an AzContext in your runbook
 Disable-AzContextAutosave -Scope Process | Out-Null
 
