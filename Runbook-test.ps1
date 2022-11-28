@@ -5,6 +5,8 @@ Param(
  [string]$UAMI 
 )
 
+#version: release-2010
+
 $automationAccount = "xAutomationAccount"
 
 # Ensures you do not inherit an AzContext in your runbook
