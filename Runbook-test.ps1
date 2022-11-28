@@ -5,10 +5,11 @@ Param(
  [string]$UAMI 
 )
 
-#version: release-2010
-
 $automationAccount = "xAutomationAccount"
+
 #feature-01
+#release-2020
+
 
 # Ensures you do not inherit an AzContext in your runbook
 Disable-AzContextAutosave -Scope Process | Out-Null
